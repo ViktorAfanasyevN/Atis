@@ -215,7 +215,7 @@ button:hover {
 	color: rgb(105,120,153);
 	font-family: "Roboto";
 	opacity: 0.4;
-	margin: 0 0 3% 0;
+	margin: 0 0 2% 0;
 	letter-spacing:3px;
 	text-align: center;
 }
@@ -223,14 +223,14 @@ button:hover {
 .top-part {
 	display: inline-flex;
 	flex-direction: row;
-	height: 55%;
+	height: 51%;
 	width: 100%;
 }
 
 .buttom-part {
 	display: inline-flex;
 	flex-direction: row;
-	height: 45%;
+	height: 40%;
 	align-self: baseline;
 	width: 100%;
 	margin-top: 15px;
@@ -386,7 +386,7 @@ button:hover {
 	border-style: solid;
 	border-color: red;
 	background-color: #f9f9f9;
-	height: calc(100vh + 100px);
+	height: calc(100vh + 70px);
 	margin: 30px auto;
 	display: inline-flex;
 	flex-direction: column;
@@ -396,31 +396,68 @@ button:hover {
 
 
 .title-hottels {
-	margin-top: 2%;
-	border-style: solid;
-	border-color: blue;
+	margin-top: 1.5%;
+	display: flex;
+	vertical-align: center;
+	justify-content:center;
+	
 }
 
 .title-hottels h1{
-	margin-bottom: 2%;
+	margin: 1% 0 2% 0;
 }
 
-
 .hottels-body {
-	height: 100%;
+	align-self:center;
+	display: inline-flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.my-hottels-top-line {
+	display: inline-flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50%;
+
+}
+
+.my-hottels-bottom-line {
+	display: inline-flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50%;
+	
+}
+
+.my-hottels {
 	border-style: solid;
-	border-color: yellow;
+	width: 25%;
+	height: auto;
+	border: 3;
+	background: url(../images/Photo.png) no-repeat center top / cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.button-hottels {
+	width: 137px;
+	border-radius: 25px;
+	margin-bottom: -15px;
+	box-shadow: 0 0 65px rgba(163,163,163,0.5);
+	background-color: #ffffff;
+	align-self: flex-end;
 }
 
 .more-information {
 	display: inline-flex;
 	justify-content: center;
-	align-self: ;
 	vertical-align: center;
-	border-style: solid;
-	border-color: green;
-	margin-bottom: 6.5%;
-	margin-top: 2%;
+	margin-top: 1.5%;
+	margin-bottom: 3.5%;
 }
 
 .hottels-footer-button {
