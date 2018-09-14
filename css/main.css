@@ -379,25 +379,71 @@ button:hover {
  	left: 15px;
 }
 
-
-/*
-
-.places img {
-	max-width: 100%;
-    max-height: 100%;
-    margin: 10px;
-    padding: 0;	
-}
-
-
-
-
 .popular-hottels {
-	height: 100vh;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-style: solid;
+	border-color: red;
+	background-color: #f9f9f9;
+	height: calc(100vh + 100px);
+	margin: 30px auto;
+	display: inline-flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 450px;
 }
 
-.hottels-section-title {
-	width 100%;
+
+.title-hottels {
+	margin-top: 2%;
+	border-style: solid;
+	border-color: blue;
 }
- 
-*/
+
+.title-hottels h1{
+	margin-bottom: 2%;
+}
+
+
+.hottels-body {
+	height: 100%;
+	border-style: solid;
+	border-color: yellow;
+}
+
+.more-information {
+	display: inline-flex;
+	justify-content: center;
+	align-self: ;
+	vertical-align: center;
+	border-style: solid;
+	border-color: green;
+	margin-bottom: 6.5%;
+	margin-top: 2%;
+}
+
+.hottels-footer-button {
+    border-radius: 26px;
+	border-style: solid;
+    background: #f9f9f9;
+    padding: 0;
+	font-family: 'Roboto';
+ 	font-size: 10px;
+ 	padding: 3px 20px 3px 20px;
+	color: rgb(197,197,197);
+	transition: all 0.3s ease 0s;
+	height: 30px;
+}
+
+.hottels-footer-button:hover {
+  background-color: #898989;
+  box-shadow: 0px 10px 70px #e4f0fd;
+  color: #087cf4;
+  margin-left: 15px
+  width: 137px;
+}
+
+
+
+
