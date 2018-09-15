@@ -217,11 +217,19 @@ button:hover {
     cursor: pointer;
 }
 
+.search-item:hover {
+	background-color: lightgrey;
+    padding: 8px;
+
+
+}
+
 .fa-search {
 	margin: 0;
 	padding: 0;
 	align-self: center;
 }
+
 
 .places {
 	height: 100vh;
