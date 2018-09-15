@@ -117,7 +117,7 @@ button:hover {
 
 .item-link:hover {
  	color: blue;
- 	font-weight: bold;
+ 	text-decoration: underline;
 }
 
 .titles {
@@ -169,6 +169,12 @@ button:hover {
 	border-style: none none solid none;
 	border-color: #379aff;
 }
+
+.form-list-item:hover {
+	border-style: solid;
+	border-color: #379aff;
+}
+
 
 
 .form-input {
