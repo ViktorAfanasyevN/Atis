@@ -1,4 +1,15 @@
 	
+@media(max-width:767px) {
+
+	.nav-bar {
+		margin-top: 10px;
+	}
+
+	.titles-first {
+		font-size: 60px;
+		line-height: 12px;
+	}
+
 @media(max-width:1023px) {
 	.item-link {
 		font-size:8px;
@@ -28,6 +39,14 @@
 	.places {
 		height: 100%;
 	}
+]
+
+
+	
+
+
+
+
 
 
 
