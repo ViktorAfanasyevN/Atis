@@ -1,14 +1,4 @@
 	
-@media(max-width:767px) {
-
-	.nav-bar {
-		margin-top: 10px;
-	}
-
-	.titles-first {
-		font-size: 60px;
-		line-height: 12px;
-	}
 
 @media(max-width:1023px) {
 	.item-link {
@@ -39,17 +29,87 @@
 	.places {
 		height: 100%;
 	}
-]
+}
+
+@media(max-width:767px) {
+
+	.nav-bar {
+		margin-top: 10px;
+	}
+
+	.titles-first {
+		font-size: 60px;
+		line-height: 12px;
+	}
+
+	.titles-second {
+		outline-width: 40px;
+
+	}
+
+	.top-part {
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.first-places {
+		width: 100%;
+		height: auto;
+	}
+
+	.first-places-part1 {
+		height: 272px;
+		width: 100%;
+	}
+
+	.first-places-part2 {
+		height: 272px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
 
 
+	.second-places {
+		height: 272px;
+		width: 100%;
+		margin: 0;	
+		margin-bottom: 15px;
+
+	}
+
+	.third-places {
+		height: auto%;
+		width: 100%
+	}
+
+	.third-places-part1 {
+		height: 272px;
+		margin-bottom: 15px;
+
+	}
+
+	.third-places-part2 {
+		height: 272px;
+	}
+
+	.buttom-part {
+		height: auto;
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.fourth-places {
+		height: 272px;	
+		width: 100%;	
+		margin-bottom: 15px;
+	}
+
+	.fifth-places {
+		height: 272px;		
+		width: 100%;	
+		margin: 0;
+	}
+
+
+}
 	
-
-
-
-
-
-
-
-
-
-]
