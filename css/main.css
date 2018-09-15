@@ -171,11 +171,9 @@ button:hover {
 }
 
 .form-list-item:hover {
-	border-style: solid;
-	border-color: #379aff;
+	border-style: 0 0 solid 0;
+	border-color: #c0dffe;
 }
-
-
 
 .form-input {
 	align-self: center;
